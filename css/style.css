@@ -146,7 +146,7 @@ a:hover {
   content: '';
   position: absolute;
   height: 3px;
-  background-color: #0078ff;
+  background-color: #95b1d1;
   width: 100px;
   bottom: -12px;
 }
@@ -534,7 +534,7 @@ a:hover {
 }
 
 .skill-mf .progress {
-  background-color: #cde1f8;
+  background-color: #95b1d1;
   margin: .3rem 0 1.2rem 0;
   border-radius: 0;
   height: .3rem;
