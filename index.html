@@ -1,28 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Tejas Saraf</title>
-  <meta content="" name="description">
-  <meta content="" name="keywords">
-  <meta name="image" property="og:image" content="assets/img/Linkedin_bg.png">
 
-  <link href="assets/img/icon.png" rel="icon"> 
-
-  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="assets/vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet">
-  <link href="assets/vendor/ionicons/css/ionicons.min.css" rel="stylesheet">
-
+  <link href="assets/img/icon.png" rel="icon">
+  <link href="assets/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/ionicons/css/ionicons.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
   <link href="css/style.css" rel="stylesheet">
-
 </head>
 
 <body id="page-top">
 
-  <nav class="navbar navbar-b navbar-trans navbar-expand-md fixed-top" id="mainNav">
+  <!-- Navigation bar -->
+  <nav class="navbar navbar-b navbar-trans navbar-expand-md fixed-top" id="mainNav" role="navigation"
+    aria-label="Main Navigation">
     <div class="container">
-      <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarDefault" aria-controls="navbarDefault" aria-expanded="false" aria-label="Toggle navigation">
+      <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarDefault"
+        aria-controls="navbarDefault" aria-expanded="false" aria-label="Toggle navigation">
         <span></span>
         <span></span>
         <span></span>
@@ -30,40 +29,44 @@
       <div class="navbar-collapse collapse justify-content-end" id="navbarDefault">
         <ul class="navbar-nav">
           <li class="nav-item">
-            <a class="nav-link js-scroll" href="#about">About</a>
+            <a class="nav-link js-scroll" href="#about" aria-label="Navigate to About Section">About</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll" href="#education">Education</a>
+            <a class="nav-link js-scroll" href="#education" aria-label="Navigate to Education Section">Education</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll" href="#work">Experience</a>
+            <a class="nav-link js-scroll" href="#work" aria-label="Navigate to Work Experience Section">Experience</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll" href="#projects">Projects</a>
+            <a class="nav-link js-scroll" href="#projects" aria-label="Navigate to Projects Section">Projects</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll" href="#certifications">Certifications</a>
+            <a class="nav-link js-scroll" href="#certifications"
+              aria-label="Navigate to Certifications Section">Certifications</a>
           </li>
         </ul>
       </div>
     </div>
   </nav>
 
-  <div id="home" class="intro route bg-image" style="background-image: url(assets/img/Back-ground.jpg)">
+  <!-- Home Section -->
+  <div id="home" class="intro route bg-image" style="background-image: url(assets/img/Back-ground.jpg)" role="banner"
+    aria-labelledby="home-title">
     <div class="overlay-itro"></div>
     <div class="intro-content display-table">
       <div class="table-cell">
         <div class="container">
-          <h1 class="intro-title mb-4">Tejas Saraf</h1>
-          <p>Web App Foundations ITMD 541</p>
+          <h1 class="intro-title mb-4" id="home-title">Tejas Saraf</h1>
+          <p aria-label="Course Information">Web App Foundations ITMD 541</p>
         </div>
       </div>
     </div>
   </div>
 
-  <main id="main">
+  <main id="main" role="main">
 
-    <section id="about" class="about-mf sect-pt4 route">
+    <!-- About Section -->
+    <section id="about" class="about-mf sect-pt4 route" aria-labelledby="about-heading">
       <div class="container">
         <div class="row">
           <div class="col-sm-12">
@@ -74,54 +77,68 @@
                     <div class="col-sm-3 "></div>
                     <div class="col-sm-4 col-md-5">
                       <div class="about-img">
-                        <img src="assets/img/Portfolio_picture.jpeg" class="img-fluid rounded b-shadow-a" alt="">
+                        <img src="assets/img/Portfolio_picture.jpeg" class="img-fluid rounded b-shadow-a"
+                          alt="Portfolio picture of Tejas Saraf">
                       </div>
                     </div>
                     <div class="col-sm-3 "></div>
                   </div>
                   <div class="skill-mf">
                     <p class="title-s">Skills</p>
-                    <ul>
-                    <li>Languages/Frameworks: C, C++, HTML5, CSS3, JavaScript, Angular, TypeScript.</li>
-                    <li>SCSS, ReactJs, Java, Python, SQL, Boostrap, Tailwind.</li>
-                    </ul>
                     <div class="progress">
-                      </div>
-                      <p class="title-s">Frameworks</p>
-                      <ul>
+                    </div>
+                    <ul aria-labelledby="skills-list">
+                      <li>Languages/Frameworks: C, C++, HTML5, CSS3, JavaScript, Angular, TypeScript.</li>
+                      <li>SCSS, ReactJs, Java, Python, SQL, Boostrap, Tailwind.</li>
+                    </ul>
+                    <p class="title-s">Frameworks</p>
+                    <div class="progress">
+                    </div>
+                    <ul aria-labelledby="frameworks-list">
                       <li>Database Tools: MySQL, MongoDB</li>
                       <li>Web app development: Front-End development, Web design, Full Stack development</li>
                       <li>Version Control: Git, Github</li>
-                      </ul>
+                    </ul>
+                    <p class="title-s">Domains</p>
                     <div class="progress">
-                       </div>
-                         <p class="title-s">Domains</p>
-                       <span>Object-Oriented Programming, Data Structures and Algorithms, Web Development, SDLC, STL, Software Development, Unified Modelling Language, DBMS, Algorithms, Networking, Operating Systems.<br></span>  <span class="pull-right"></span>
-                       <div class="progress">
-                         </div>
-                          <p class="title-s">Patent</p>
-                        <span>Quantum Hardware Design and Fabrication and Quantum algorithms for Machine Learning. Application No: 202321086733.<br></span>  <span class="pull-right"></span>
-                        <div class="progress">
-                          </div>
+                    </div>
+                    <span>Object-Oriented Programming, Data Structures and Algorithms, Web Development, SDLC, STL,
+                      Software Development, Unified Modelling Language, DBMS, Algorithms, Networking, Operating
+                      Systems.</span><br>
+                    <p class="title-s">Patent</p>
+                    <div class="progress">
+                    </div>
+                    <span>Quantum Hardware Design and Fabrication and Quantum algorithms for Machine Learning.
+                      Application No: 202321086733.</span>
                   </div>
                 </div>
                 <div class="col-md-6">
                   <div class="about-me pt-4 pt-md-0">
-                    
                     <div class="title-box-2">
-                      <h5 class="title-left">
-                        About me
-                      </h5>
+                      <h5 class="title-left" id="about-heading">About me</h5>
                     </div>
-                    
+
                     <p class="lead">
                       Hello!
-                      I am Tejas! An accomplished software developer with a solid foundation in software development and front-end engineering. Currently pursuing a Master’s in Information Technology and Management at the Illinois Institute of Technology, I have already gained hands-on experience through various roles that have allowed me to refine my skills in full-stack technologies.
+                      I am Tejas! An accomplished software developer with a solid foundation in software development and
+                      front-end engineering. Currently pursuing a Master’s in Information Technology and Management at
+                      the Illinois Institute of Technology, I have already gained hands-on experience through various
+                      roles that have allowed me to refine my skills in full-stack technologies.
                     <p class="lead">
-                      While working at <b>Jio Platforms Limited</b>, I played a key role in revamping the JioEvents platform, where I improved user experience by addressing over 50 key observations. I developed innovative features like camera feed resizing, drag-and-drop functionality, and a combined OTP verification system that enhanced user interaction for thousands of customers. My contributions led to a 10% increase in event management efficiency and a 5% boost in system performance.
+                      While working at <b>Jio Platforms Limited</b>, I played a key role in revamping the JioEvents
+                      platform, where I improved user experience by addressing over 50 key observations. I developed
+                      innovative features like camera feed resizing, drag-and-drop functionality, and a combined OTP
+                      verification system that enhanced user interaction for thousands of customers. My contributions
+                      led to a 10% increase in event management efficiency and a 5% boost in system performance.
                     </p>
                     <p class="lead">
-                      During my time at Elite Softwares, I optimized the front-end of the College ERP system, which resulted in a 25% improvement in usability based on user feedback. At Gravitech Dreams, I created a social media management tool that allowed users to manage content across multiple platforms, significantly enhancing engagement. In addition to my professional work, I have completed projects integrating Blockchain and Web 3.0 technologies. One of my standout projects is an e-commerce website powered by Ethereum Smart Contracts, which improved transaction security and efficiency by 30%.
+                      During my time at Elite Softwares, I optimized the front-end of the College ERP system, which
+                      resulted in a 25% improvement in usability based on user feedback. At Gravitech Dreams, I created
+                      a social media management tool that allowed users to manage content across multiple platforms,
+                      significantly enhancing engagement. In addition to my professional work, I have completed projects
+                      integrating Blockchain and Web 3.0 technologies. One of my standout projects is an e-commerce
+                      website powered by Ethereum Smart Contracts, which improved transaction security and efficiency by
+                      30%.
                   </div>
                 </div>
               </div>
@@ -131,75 +148,69 @@
       </div>
     </section>
 
-    <section id="education" class="portfolio-mf sect-pt4 route">
+    <!-- Education Section -->
+    <section id="education" class="portfolio-mf sect-pt4 route" aria-labelledby="education-heading">
       <div class="container">
         <div class="row">
           <div class="col-sm-12">
             <div class="title-box text-center">
-              <h3 class="title-a">
-                Education
-              </h3>
+              <h3 class="title-a" id="education-heading">Education</h3>
               <div class="line-mf"></div>
             </div>
           </div>
         </div>
         <div class="row">
-          
           <div class="col-md-1">
           </div>
 
           <div class="col-md-5">
             <div class="work-box">
-                <div class="work-img">
-                  <img src="assets/img/Education/IIT.gif" alt="" class="img-fluid">
-                </div>
+              <div class="work-img">
+                <img src="assets/img/Education/IIT.gif" alt="" class="img-fluid">
+              </div>
               </a>
               <div class="work-content">
                 <div class="row">
                   <div class="col-sm-12">
                     <h2 class="w-title">Master of Information Technology and Management</h2>
                     <div class="w-more">
-                       <span class="w-date">2024 - 2026</span>
+                      <span class="w-date">2024 - 2026</span>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-          
+
           <div class="col-md-5">
             <div class="work-box">
-                <div class="work-img">
-                  <img src="assets/img/Education/sppu.png" alt="" class="img-fluid">
-                </div>
+              <div class="work-img">
+                <img src="assets/img/Education/sppu.png" alt="" class="img-fluid">
+              </div>
               </a>
               <div class="work-content">
                 <div class="row">
                   <div class="col-sm-12">
                     <h2 class="w-title">Bachelor of Technology in Information Technology</h2>
                     <div class="w-more">
-                       <span class="w-date">2020 - 2023</span>
+                      <span class="w-date">2020 - 2023</span>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-
-          <div class="col-md-1">
-          </div>
         </div>
       </div>
     </section>
 
-    <section id="work" class="portfolio-mf sect-pt4 route">
+    <!-- Work Experience Section -->
+    <section id="work" class="portfolio-mf sect-pt4 route" aria-labelledby="work-heading">
       <div class="container">
         <div class="row">
           <div class="col-sm-12">
             <div class="title-box text-center">
-              <h3 class="title-a">
-                Work Experience
-              </h3>
+              <h3 class="title-a" id="work-heading">Work Experience</h3>
               <div class="line-mf"></div>
             </div>
           </div>
@@ -207,9 +218,10 @@
         <div class="row">
           <div class="col-md-4">
             <div class="work-box">
-                <div class="work-img">
-                  <a href="https://www.jio.com/"><img src="assets/img/Work Experience/Jio.gif" alt="" class="img-fluid"></a>
-                </div>
+              <div class="work-img">
+                <a href="https://www.jio.com/"><img src="assets/img/Work Experience/Jio.gif" alt=""
+                    class="img-fluid"></a>
+              </div>
               </a>
               <div class="work-content">
                 <div class="row">
@@ -226,16 +238,16 @@
 
           <div class="col-md-4">
             <div class="work-box">
-                <div class="work-img">
-                  <img src="assets/img/Work Experience/elite_softwares.jpg" alt="" class="img-fluid">
-                </div>
+              <div class="work-img">
+                <img src="assets/img/Work Experience/elite_softwares.jpg" alt="" class="img-fluid">
+              </div>
               </a>
               <div class="work-content">
                 <div class="row">
                   <div class="col-sm-12">
                     <h2 class="w-title">Web Developer Intern <br> ReactJs</h2>
                     <div class="w-more">
-                       <span class="w-date">June 2023 - Oct 2023</span>
+                      <span class="w-date">June 2023 - Oct 2023</span>
                     </div>
                   </div>
                 </div>
@@ -245,9 +257,9 @@
 
           <div class="col-md-4">
             <div class="work-box">
-                <div class="work-img">
-                  <img src="assets/img/Work Experience/Gravitech.jpg" alt="" class="img-fluid"></a>
-                </div>
+              <div class="work-img">
+                <img src="assets/img/Work Experience/Gravitech.jpg" alt="" class="img-fluid"></a>
+              </div>
               </a>
               <div class="work-content">
                 <div class="row">
@@ -261,19 +273,19 @@
               </div>
             </div>
           </div>
-          
+
           <div class="col-md-4">
             <div class="work-box">
-                <div class="work-img">
-                  <img src="assets/img/Work Experience/Exposys.png" alt="" class="img-fluid">
-                </div>
+              <div class="work-img">
+                <img src="assets/img/Work Experience/Exposys.png" alt="" class="img-fluid">
+              </div>
               </a>
               <div class="work-content">
                 <div class="row">
                   <div class="col-sm-12">
                     <h2 class="w-title">Web Developer Intern </h2>
                     <div class="w-more">
-                       <span class="w-date">Dec 2021 - jan 2022</span>
+                      <span class="w-date">Dec 2021 - jan 2022</span>
                     </div>
                   </div>
                 </div>
@@ -282,14 +294,13 @@
           </div>
     </section>
 
-    <section id="projects" class="blog-mf sect-pt4 route">
+    <!-- Projects Section -->
+    <section id="projects" class="blog-mf sect-pt4 route" aria-labelledby="projects-heading">
       <div class="container">
         <div class="row">
           <div class="col-sm-12">
             <div class="title-box text-center">
-              <h3 class="title-a">
-                Projects
-              </h3>
+              <h3 class="title-a" id="projects-heading">Projects</h3>
               <div class="line-mf"></div>
             </div>
           </div>
@@ -298,7 +309,8 @@
           <div class="col-md-4">
             <div class="card card-blog">
               <div class="card-img">
-                <a href="https://github.com/TejasSaraf"><img src="assets/img/Projects/github-logo.jpg" alt="" class="img-fluid" style="border-radius: 1rem;"></a>
+                <a href="https://github.com/TejasSaraf"><img src="assets/img/Projects/github-logo.jpg" alt=""
+                    class="img-fluid" style="border-radius: 1rem;"></a>
               </div>
               <div class="card-body">
                 <div class="card-category-box">
@@ -312,7 +324,8 @@
           <div class="col-md-4">
             <div class="card card-blog">
               <div class="card-img">
-                <a href="https://sortingalgoapp.netlify.app/"><img src="assets/img/Projects/sort.png" alt="" class="img-fluid" style="border-radius: 1rem;"></a>
+                <a href="https://sortingalgoapp.netlify.app/"><img src="assets/img/Projects/sort.png" alt=""
+                    class="img-fluid" style="border-radius: 1rem;"></a>
               </div>
               <div class="card-body">
                 <div class="card-category-box">
@@ -326,7 +339,8 @@
           <div class="col-md-4">
             <div class="card card-blog">
               <div class="card-img">
-                <a href="https://github.com/TejasSaraf/Blockchain-E-Commerce"><img src="assets/img/Projects/blockchain.png" alt="" class="img-fluid" style="border-radius: 1rem;"></a>
+                <a href="https://github.com/TejasSaraf/Blockchain-E-Commerce"><img
+                    src="assets/img/Projects/blockchain.png" alt="" class="img-fluid" style="border-radius: 1rem;"></a>
               </div>
               <div class="card-body">
                 <div class="card-category-box">
@@ -341,14 +355,13 @@
       </div>
     </section>
 
-    <section id="certifications" class="services-mf pt-5 route">
+    <!-- Certifications Section -->
+    <section id="certifications" class="services-mf pt-5 route" aria-labelledby="certifications-heading">
       <div class="container">
         <div class="row">
           <div class="col-sm-12">
             <div class="title-box text-center">
-              <h3 class="title-a">
-                Licenses & Certifications
-              </h3>
+              <h3 class="title-a" id="certifications-heading">Licenses & Certifications</h3>
               <div class="line-mf"></div>
             </div>
           </div>
@@ -357,7 +370,9 @@
           <div class="col-md-4">
             <div class="service-box">
               <div class="work-img">
-                <a href="https://www.coursera.org/account/accomplishments/specialization/FPMG6A5HKXXG?utm_source=link&utm_medium=certificate&utm_content=cert_image&utm_campaign=sharing_cta&utm_product=s12n"><img src="assets/img/Certi/University-of-Michigan-Logo.png" alt="" class="img-fluid"></a>
+                <a
+                  href="https://www.coursera.org/account/accomplishments/specialization/FPMG6A5HKXXG?utm_source=link&utm_medium=certificate&utm_content=cert_image&utm_campaign=sharing_cta&utm_product=s12n"><img
+                    src="assets/img/Certi/University-of-Michigan-Logo.png" alt="" class="img-fluid"></a>
               </div>
               <div class="work-content">
                 <h2 class="w-title">Python 3 Programming</h2>
@@ -370,7 +385,9 @@
           <div class="col-md-4">
             <div class="service-box">
               <div class="work-img">
-                <a href="https://www.coursera.org/account/accomplishments/specialization/3PDGY25UXW93?utm_source=link&utm_medium=certificate&utm_content=cert_image&utm_campaign=sharing_cta&utm_product=s12n"><img src="assets/img/Certi/UCSD.png" alt="" class="img-fluid"></a>
+                <a
+                  href="https://www.coursera.org/account/accomplishments/specialization/3PDGY25UXW93?utm_source=link&utm_medium=certificate&utm_content=cert_image&utm_campaign=sharing_cta&utm_product=s12n"><img
+                    src="assets/img/Certi/UCSD.png" alt="" class="img-fluid"></a>
               </div>
               <div class="work-content">
                 <h2 class="w-title">Data Structures and Algorithms</h2>
@@ -383,7 +400,9 @@
           <div class="col-md-4">
             <div class="service-box">
               <div class="work-img">
-                <a href="https://www.coursera.org/account/accomplishments/professional-cert/2D2UG6DCJVTK?utm_source=link&utm_medium=certificate&utm_content=cert_image&utm_campaign=sharing_cta&utm_product=prof"><img src="assets/img/Certi/Meta_Logo.jpg" alt="" class="img-fluid"></a>
+                <a
+                  href="https://www.coursera.org/account/accomplishments/professional-cert/2D2UG6DCJVTK?utm_source=link&utm_medium=certificate&utm_content=cert_image&utm_campaign=sharing_cta&utm_product=prof"><img
+                    src="assets/img/Certi/Meta_Logo.jpg" alt="" class="img-fluid"></a>
               </div>
               <div class="work-content">
                 <h2 class="w-title">Meta Front-End Developer</h2>
@@ -396,7 +415,9 @@
           <div class="col-md-4">
             <div class="service-box">
               <div class="work-img">
-                <a href="https://www.coursera.org/account/accomplishments/professional-cert/JJXLHHN9KJ6X?utm_source=link&utm_medium=certificate&utm_content=cert_image&utm_campaign=sharing_cta&utm_product=prof"><img src="assets/img/Certi/IBM.png" alt="" class="img-fluid"></a>
+                <a
+                  href="https://www.coursera.org/account/accomplishments/professional-cert/JJXLHHN9KJ6X?utm_source=link&utm_medium=certificate&utm_content=cert_image&utm_campaign=sharing_cta&utm_product=prof"><img
+                    src="assets/img/Certi/IBM.png" alt="" class="img-fluid"></a>
               </div>
               <div class="work-content">
                 <h2 class="w-title">Full Stack Software Developer</h2>
@@ -409,7 +430,8 @@
           <div class="col-md-4">
             <div class="service-box">
               <div class="work-img">
-                <a href="https://www.credly.com/badges/5df6a643-80d1-488d-af2d-02dee90df4b8/linked_in_profile"><img src="assets/img/Certi/Cisco.png" alt="" class="img-fluid"></a>
+                <a href="https://www.credly.com/badges/5df6a643-80d1-488d-af2d-02dee90df4b8/linked_in_profile"><img
+                    src="assets/img/Certi/Cisco.png" alt="" class="img-fluid"></a>
               </div>
               <div class="work-content">
                 <h2 class="w-title">JavaScript Essentials 1</h2>
@@ -422,7 +444,8 @@
           <div class="col-md-4">
             <div class="service-box">
               <div class="work-img">
-                <a href="https://www.hackerrank.com/certificates/c0d78f611307"><img src="assets/img/Certi/HackerRank.png" alt="" class="img-fluid"></a>
+                <a href="https://www.hackerrank.com/certificates/c0d78f611307"><img
+                    src="assets/img/Certi/HackerRank.png" alt="" class="img-fluid"></a>
               </div>
               <div class="work-content">
                 <h2 class="w-title">Problem Solving (Intermediate)</h2>
@@ -435,7 +458,8 @@
           <div class="col-md-4">
             <div class="service-box">
               <div class="work-img">
-                <a href="https://www.hackerrank.com/certificates/31524fcfa8b6"><img src="assets/img/Certi/HackerRank.png" alt="" class="img-fluid"></a>
+                <a href="https://www.hackerrank.com/certificates/31524fcfa8b6"><img
+                    src="assets/img/Certi/HackerRank.png" alt="" class="img-fluid"></a>
               </div>
               <div class="work-content">
                 <h2 class="w-title">SQL</h2>
@@ -448,7 +472,8 @@
           <div class="col-md-4">
             <div class="service-box">
               <div class="work-img">
-                <a href="https://drive.google.com/file/d/1cZ6Qxf8qtGPuNa7f2dAJhlll1bs5sg7G/view?usp=drivesdk"><img src="assets/img/Certi/NPTEL-Courses.jpg" alt="" class="img-fluid"></a>
+                <a href="https://drive.google.com/file/d/1cZ6Qxf8qtGPuNa7f2dAJhlll1bs5sg7G/view?usp=drivesdk"><img
+                    src="assets/img/Certi/NPTEL-Courses.jpg" alt="" class="img-fluid"></a>
               </div>
               <div class="work-content">
                 <h2 class="w-title">Big Data Computing - IIT Kanpur</h2>
@@ -461,7 +486,9 @@
           <div class="col-md-4">
             <div class="service-box">
               <div class="work-img">
-                <a href="https://www.coursera.org/account/accomplishments/verify/5WWUL57XFMRK?utm_source=link&utm_medium=certificate&utm_content=cert_image&utm_campaign=sharing_cta&utm_product=course"><img src="assets/img/Certi/University-of-Michigan-Logo.png" alt="" class="img-fluid"></a>
+                <a
+                  href="https://www.coursera.org/account/accomplishments/verify/5WWUL57XFMRK?utm_source=link&utm_medium=certificate&utm_content=cert_image&utm_campaign=sharing_cta&utm_product=course"><img
+                    src="assets/img/Certi/University-of-Michigan-Logo.png" alt="" class="img-fluid"></a>
               </div>
               <div class="work-content">
                 <h2 class="w-title">Python Basics</h2>
@@ -471,11 +498,13 @@
               </div>
             </div>
           </div>
-        
+
           <div class="col-md-4">
             <div class="service-box">
               <div class="work-img">
-                <a href="https://www.coursera.org/account/accomplishments/professional-cert/XDR6VT5N782G?utm_source=link&utm_medium=certificate&utm_content=cert_image&utm_campaign=sharing_cta&utm_product=prof"><img src="assets/img/Certi/AWS.png" alt="" class="img-fluid"></a>
+                <a
+                  href="https://www.coursera.org/account/accomplishments/professional-cert/XDR6VT5N782G?utm_source=link&utm_medium=certificate&utm_content=cert_image&utm_campaign=sharing_cta&utm_product=prof"><img
+                    src="assets/img/Certi/AWS.png" alt="" class="img-fluid"></a>
               </div>
               <div class="work-content">
                 <h2 class="w-title">AWS Cloud Solutions Architect</h2>
@@ -488,7 +517,9 @@
           <div class="col-md-4">
             <div class="service-box">
               <div class="work-img">
-                <a href="https://www.coursera.org/account/accomplishments/verify/ZS29AQXR67R8?utm_source=link&utm_medium=certificate&utm_content=cert_image&utm_campaign=sharing_cta&utm_product=course"><img src="assets/img/Certi/AWS.png" alt="" class="img-fluid"></a>
+                <a
+                  href="https://www.coursera.org/account/accomplishments/verify/ZS29AQXR67R8?utm_source=link&utm_medium=certificate&utm_content=cert_image&utm_campaign=sharing_cta&utm_product=course"><img
+                    src="assets/img/Certi/AWS.png" alt="" class="img-fluid"></a>
               </div>
               <div class="work-content">
                 <h2 class="w-title">AWS Cloud Technical Essentials</h2>
@@ -502,7 +533,9 @@
           <div class="col-md-4">
             <div class="service-box">
               <div class="work-img">
-                <a href="https://www.coursera.org/account/accomplishments/verify/FFEHYGJPJPTV?utm_source=link&utm_medium=certificate&utm_content=cert_image&utm_campaign=sharing_cta&utm_product=course"><img src="assets/img/Certi/UCSD.png" alt="" class="img-fluid"></a>
+                <a
+                  href="https://www.coursera.org/account/accomplishments/verify/FFEHYGJPJPTV?utm_source=link&utm_medium=certificate&utm_content=cert_image&utm_campaign=sharing_cta&utm_product=course"><img
+                    src="assets/img/Certi/UCSD.png" alt="" class="img-fluid"></a>
               </div>
               <div class="work-content">
                 <h2 class="w-title">Advanced Algorithms</h2>
@@ -515,7 +548,8 @@
           <div class="col-md-4">
             <div class="service-box">
               <div class="work-img">
-                <a href="https://www.credly.com/badges/56bd839b-724f-4f85-a820-51c189f5df00/linked_in_profile"><img src="assets/img/Certi/Cisco.png" alt="" class="img-fluid"></a>
+                <a href="https://www.credly.com/badges/56bd839b-724f-4f85-a820-51c189f5df00/linked_in_profile"><img
+                    src="assets/img/Certi/Cisco.png" alt="" class="img-fluid"></a>
               </div>
               <div class="work-content">
                 <h2 class="w-title">Operating System Basics</h2>
@@ -525,107 +559,141 @@
               </div>
             </div>
           </div>
-    
-      <div class="col-md-4">
-        <div class="service-box">
-          <div class="work-img">
-            <a href="https://www.coursera.org/account/accomplishments/verify/SQRK46R4XAYU?utm_source=link&utm_medium=certificate&utm_content=cert_image&utm_campaign=sharing_cta&utm_product=course"><img src="assets/img/Certi/Meta_Logo.jpg" alt="" class="img-fluid"></a>
+
+          <div class="col-md-4">
+            <div class="service-box">
+              <div class="work-img">
+                <a
+                  href="https://www.coursera.org/account/accomplishments/verify/SQRK46R4XAYU?utm_source=link&utm_medium=certificate&utm_content=cert_image&utm_campaign=sharing_cta&utm_product=course"><img
+                    src="assets/img/Certi/Meta_Logo.jpg" alt="" class="img-fluid"></a>
+              </div>
+              <div class="work-content">
+                <h2 class="w-title">Meta Advanced React</h2>
+                <p class="w-ctegory">
+                  Issued Nov 2023
+                </p>
+              </div>
+            </div>
           </div>
-          <div class="work-content">
-            <h2 class="w-title">Meta Advanced React</h2>
-            <p class="w-ctegory">
-              Issued Nov 2023
-            </p>
+
+          <div class="col-md-4">
+            <div class="service-box">
+              <div class="work-img">
+                <a
+                  href="https://www.coursera.org/account/accomplishments/specialization/B7KTF76VW5YL?utm_source=link&utm_medium=certificate&utm_content=cert_image&utm_campaign=sharing_cta&utm_product=s12n"><img
+                    src="assets/img/Certi/AWS.png" alt="" class="img-fluid"></a>
+              </div>
+              <div class="work-content">
+                <h2 class="w-title">Devops on AWS</h2>
+                <p class="w-ctegory">
+                  Issued Nov 2023
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="service-box">
+              <div class="work-img">
+                <a href="https://www.credly.com/badges/349fc4c6-723c-4cb9-8998-a3d7cff22461/linked_in_profile"><img
+                    src="assets/img/Certi/IBM.png" alt="" class="img-fluid"></a>
+              </div>
+              <div class="work-content">
+                <h2 class="w-title">Containers and Kubernetes Essentials</h2>
+                <p class="w-ctegory">
+                  Issued Aug 2023
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="service-box">
+              <div class="work-img">
+                <a href="https://www.credly.com/badges/75d61a91-908f-43c1-b1b6-c7e436343988/linked_in_profile"><img
+                    src="assets/img/Certi/Cisco.png" alt="" class="img-fluid"></a>
+              </div>
+              <div class="work-content">
+                <h2 class="w-title">Introduction to Cyberseurity </h2>
+                <p class="w-ctegory">
+                  Issued Jul 2023
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="service-box">
+              <div class="work-img">
+                <a href="https://www.hackerrank.com/certificates/4ed7a5057953"><img
+                    src="assets/img/Certi/HackerRank.png" alt="" class="img-fluid"></a>
+              </div>
+              <div class="work-content">
+                <h2 class="w-title">Problem Solving (Basic)</h2>
+                <p class="w-ctegory">
+                  Issued Dec 2022
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="service-box">
+              <div class="work-img">
+                <a
+                  href="https://www.coursera.org/account/accomplishments/verify/WMP3Z3VXWV78?utm_source=link&utm_medium=certificate&utm_content=cert_image&utm_campaign=sharing_cta&utm_product=course"><img
+                    src="assets/img/Certi/Meta_Logo.jpg" alt="" class="img-fluid"></a>
+              </div>
+              <div class="work-content">
+                <h2 class="w-title">Programming with JavaScript</h2>
+                <p class="w-ctegory">
+                  Issued Nov 2023
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="service-box">
+              <div class="work-img">
+                <a
+                  href="https://www.coursera.org/account/accomplishments/verify/Q2DDVYJL3LUS?utm_source=link&utm_medium=certificate&utm_content=cert_image&utm_campaign=sharing_cta&utm_product=course"><img
+                    src="assets/img/Certi/AWS.png" alt="" class="img-fluid"></a>
+              </div>
+              <div class="work-content">
+                <h2 class="w-title">Architecting Solutions on AWS</h2>
+                <p class="w-ctegory">
+                  Issued Nov 2023
+                </p>
+              </div>
+            </div>
           </div>
         </div>
       </div>
-    
-    <div class="col-md-4">
-      <div class="service-box">
-        <div class="work-img">
-          <a href="https://www.coursera.org/account/accomplishments/specialization/B7KTF76VW5YL?utm_source=link&utm_medium=certificate&utm_content=cert_image&utm_campaign=sharing_cta&utm_product=s12n"><img src="assets/img/Certi/AWS.png" alt="" class="img-fluid"></a>
+
+      <div class="col-md-6">
+        <div class="title-box-2 pt-4 pt-md-0">
+          <h5 class="title-left">
+            Contact
+          </h5>
         </div>
-        <div class="work-content">
-          <h2 class="w-title">Devops on AWS</h2>
-          <p class="w-ctegory">
-            Issued Nov 2023
-          </p>
+        <div class="more-info">
+          <ul class="list-ico">
+            <li><span class="ion-email"></span> tsaraf@hawk.iit.edu</li>
+          </ul>
         </div>
-      </div>
-    </div>
-    
-    <div class="col-md-4">
-      <div class="service-box">
-        <div class="work-img">
-          <a href="https://www.credly.com/badges/349fc4c6-723c-4cb9-8998-a3d7cff22461/linked_in_profile"><img src="assets/img/Certi/IBM.png" alt="" class="img-fluid"></a>
-        </div>
-        <div class="work-content">
-          <h2 class="w-title">Containers and Kubernetes Essentials</h2>
-          <p class="w-ctegory">
-            Issued Aug 2023
-          </p>
+        <div class="socials">
+          <ul>
+            <li><a href="https://www.linkedin.com/in/saraf-tejas/"><span class="ico-circle"><i
+                    class="ion-social-linkedin"></i></span></a></li>
+            <li><a href="https://github.com/TejasSaraf"><span class="ico-circle"><i
+                    class="ion-social-github"></i></span></a></li>
+          </ul>
         </div>
       </div>
-    </div>
-    
-    <div class="col-md-4">
-      <div class="service-box">
-        <div class="work-img">
-          <a href="https://www.credly.com/badges/75d61a91-908f-43c1-b1b6-c7e436343988/linked_in_profile"><img src="assets/img/Certi/Cisco.png" alt="" class="img-fluid"></a>
-        </div>
-        <div class="work-content">
-          <h2 class="w-title">Introduction to Cyberseurity </h2>
-          <p class="w-ctegory">
-            Issued Jul 2023
-          </p>
-        </div>
-      </div>
-    </div>
-    
-    <div class="col-md-4">
-      <div class="service-box">
-        <div class="work-img">
-          <a href="https://www.hackerrank.com/certificates/4ed7a5057953"><img src="assets/img/Certi/HackerRank.png" alt="" class="img-fluid"></a>
-        </div>
-        <div class="work-content">
-          <h2 class="w-title">Problem Solving (Basic)</h2>
-          <p class="w-ctegory">
-            Issued Dec 2022
-          </p>
-        </div>
-      </div>
-    </div>
-    
-    <div class="col-md-4">
-      <div class="service-box">
-        <div class="work-img">
-          <a href="https://www.coursera.org/account/accomplishments/verify/WMP3Z3VXWV78?utm_source=link&utm_medium=certificate&utm_content=cert_image&utm_campaign=sharing_cta&utm_product=course"><img src="assets/img/Certi/Meta_Logo.jpg" alt="" class="img-fluid"></a>
-        </div>
-        <div class="work-content">
-          <h2 class="w-title">Programming with JavaScript</h2>
-          <p class="w-ctegory">
-            Issued Nov 2023
-          </p>
-        </div>
-      </div>
-    </div>
-    
-    <div class="col-md-4">
-      <div class="service-box">
-        <div class="work-img">
-          <a href="https://www.coursera.org/account/accomplishments/verify/Q2DDVYJL3LUS?utm_source=link&utm_medium=certificate&utm_content=cert_image&utm_campaign=sharing_cta&utm_product=course"><img src="assets/img/Certi/AWS.png" alt="" class="img-fluid"></a>
-        </div>
-        <div class="work-content">
-          <h2 class="w-title">Architecting Solutions on AWS</h2>
-          <p class="w-ctegory">
-            Issued Nov 2023
-          </p>
-        </div>
-      </div>
-    </div>
-</div>
-</div>
     </section>
+
+  </main>
 
 </body>
 
