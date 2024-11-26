@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Details Form</title>
+    <link rel="stylesheet" href="form.css"> 
+    <script src="script.js" defer></script> 
+</head>
+<body>
+    <form id="detailsForm">
+        <div>
+            <h1>FORM</h1>
+        </div>
+
+        <div class="form-section">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="Enter your name" required>
+        </div>
+         <div class="form-section">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required>
+        </div>
+       <div class="form-section">
+            <label for="phone_number">Phone Number:</label>
+            <input type="text" id="phone_number" name="phone_number" placeholder="Enter your phone number" required>
+        </div>
+         <div class="form-section">
+            <label for="degree">Degree:</label>
+            <input type="text" id="degree" name="degree" placeholder="Enter your Degree" required>
+        </div>
+        <div class="form-section">
+            <label for="institute">Institution:</label>
+            <input type="text" id="institute" name="institute" placeholder="Enter your University Name" required>
+        </div>
+        <div class="form-section">
+            <label for="pasing year">Passing Year:</label>
+            <input type="text" id="passing Year" name="passing Year" placeholder="Enter your Passing Year" required>
+        </div>
+
+         <div class="form-section">
+            <label for="job_title">Job Title:</label>
+            <input type="text" id="job_title" name="job_title" placeholder="Enter your Designation" required>
+        </div>
+       
+        <div class="form-section">
+            <label for="company">Company:</label>
+            <input type="text" id="company" name="company" placeholder="Enter your last company" required>
+        </div>
+        <div class="form-section">
+            <label for="duration">Duration:(ex: Jan-23 to Jan-24)</label>
+            <input type="text" id="duration" name="duration" placeholder="Enter your duration in that company" required>
+        </div>
+        <div class="form-section">
+            <label for="responsibility">Responsibilities:</label>
+            <textarea id="responsibility" name="responsibility" placeholder="Describe your responsibilities" rows="4"></textarea>
+        </div>
+
+         <div class="form-section">
+            <label>Languages You Know:</label>
+            <div class="checkbox-group">
+                <label><input type="checkbox" id="C" value="C">C</label>
+                <label><input type="checkbox" id="C++" value="C++">C++</label>
+                <label><input type="checkbox" id="Csharp" value="Csharp">C#</label>
+                <label><input type="checkbox" id="Java" value="Java">Java</label>
+                <label><input type="checkbox" id="Python" value="Python">Python</label>
+                <label><input type="checkbox" id="JavaScript" value="JavaScript">JavaScript</label>
+                <label><input type="checkbox" id="TypeScript" value="TypeScript">TypeScript</label>
+            </div>
+        </div>
+
+        <div class="form-section">
+            <label>Framework You Know:</label>
+            <div class="check-grp">
+                <label><input type="checkbox" id="facil.io" value="facil.io"> facil.io</label>
+                <label><input type="checkbox" id="cppCMS" value="cppCMS"> cppCMS</label>
+                <label><input type="checkbox" id="SpringBoot" value="SpringBoot"> Springboot</label>
+                <label><input type="checkbox" id="Django" value="Django"> Django</label>
+                <label><input type="checkbox" id="React" value="React"> React</label>
+                <label><input type="checkbox" id="NextJS" value="NextJS"> NextJS</label>
+                <label><input type="checkbox" id="NodeJS" value="NodeJS"> NodeJS</label>
+            </div>
+        </div>
+
+        <div class="form-section">
+            <label for="version_control">Version control:</label>
+            <select id="version" name="version">
+                <option value="github">Github</option>
+                <option value="BitBucket">Bitbucket</option>
+                <option value="gitlab">Gitlab</option>
+            </select>
+        </div>
+
+         <div class="form-section">
+            <label for="Project">Project:</label>
+            <input type="text" id="ProjectName" name="ProjectName" placeholder="Enter your Project Title" required>
+            <textarea id="ProjectDescription" name="ProjDescription" placeholder="Describe your Project" rows="4"></textarea>
+        </div>
+        
+        <div class="form-section">
+            <button type="submit">Submit</button>
+        </div>    
+    </form>
+</body>
+</html>

@@ -1,0 +1,74 @@
+body {
+    display: flex; /* Use flexbox */
+    justify-content: center; 
+    align-items: center; /* Center vertically */
+    height: 100vh; /* Full viewport height */
+    width: 100%; /* Full width */
+    margin: 0; /* Remove default margin */
+    background-color: #f9f9f9;
+    overflow: hidden; /* Prevent body scrolling */
+}
+
+form {
+    width: 90%; /* Full width */
+    max-height: 90vh; /* Limit maximum height */
+    overflow-y: auto; /* Scrollable if content exceeds max height */
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff; /* White background for the form */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add slight shadow */
+    max-width: 600px; /* Limit maximum width for readability */
+}
+
+h1 {
+    text-align: center; /* Center the heading */
+    margin-bottom: 20px; /* Space below the heading */
+    color: #333; /* Dark color for visibility */
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    color: #333; /* Dark color for visibility */
+}
+
+input[type="text"], input[type="email"], textarea, select {
+    width: 90%;
+    padding: 10px; /* Increased padding for better touch targets */
+    margin-top: 5px;
+    border: 1px solid #ccc; /* Border style */
+    border-radius: 4px; /* Rounded corners */
+}
+
+input[type="checkbox"], input[type="radio"] {
+    margin-right: 5px;
+}
+
+.checkbox-group {
+    display: flex;
+    flex-wrap: wrap; /* Wrap checkboxes to new line if space is limited */
+    margin-top: 5px;
+}
+
+.checkbox-group label {
+    margin-right: 15px; /* Space between checkboxes */
+}
+
+button {
+    background-color: #4CAF50; /* Green background */
+    color: white; /* White text */
+    padding: 10px 15px; /* Padding for button */
+    border: none; /* Remove border */
+    border-radius: 4px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    margin-top: 15px; /* Space above the button */
+}
+
+button:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
+
+.form-section {
+    margin-bottom: 20px; /* Space between sections */
+}
